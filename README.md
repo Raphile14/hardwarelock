@@ -11,7 +11,8 @@ identifiers:
 
 This project's goal is to prevent non-technical users from distributing and running your JAR on unknown devices. This is
 particularly useful if you develop hardware and software projects with Java or Kotlin and are looking for a way to
-protect your software even a little bit.
+protect your software even a little bit. This project is not meant to be an all-in-one solution for your protection
+needs.
 
 ## Getting Started
 
