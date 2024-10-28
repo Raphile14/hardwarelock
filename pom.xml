@@ -104,4 +104,12 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Hardware Lock</name>
+            <url>https://maven.pkg.github.com/Raphile14/hardwarelock</url>
+        </repository>
+    </distributionManagement>
+
 </project>
