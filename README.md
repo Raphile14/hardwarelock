@@ -9,6 +9,10 @@ identifiers:
 - `Machine Id`
 - `Mac Address`
 
+This project's goal is to prevent non-technical users from distributing and running your JAR on unknown devices. This is
+particularly useful if you develop hardware and software projects with Java or Kotlin and are looking for a way to
+protect your software even a little bit.
+
 ## Getting Started
 
 Import the dependency into your project as a maven dependency:
@@ -35,7 +39,7 @@ The hash value generated on runtime follows the following format:
 val content = "$cpuSerialNumber $delimiter $macAddress $delimiter $machineId" 
 ```
 
-Feel free to choose your delimiter.
+_Feel free to choose your delimiter._
 
 Be sure to follow the same format when generating the hashed value for your env.
 
